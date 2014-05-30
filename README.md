@@ -3,7 +3,7 @@ PushoverArduino
 
 Send Pushover messages from the arduino
 
-if you want to use for example a vaiable in the message, like a temperature reading from a temperture sensor.
+if you want to use for example a vaiable in the message, like a temperature reading from a temperature sensor.
 
 Here is an example
 
