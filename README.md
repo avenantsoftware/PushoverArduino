@@ -5,7 +5,7 @@ Send Pushover messages from the arduino
 
 You can use it in your own code by adding:
 
-// Pushover settings
+[code]// Pushover settings
 char pushoversite[] = "api.pushover.net";
 char apitoken[] = "your30characterapitokenhere123";
 char userkey [] = "your30characteruserkeygoeshere";
@@ -42,7 +42,7 @@ byte pushover(char *pushovermessage, int priority)
     }
     client.stop();
   }  
-}
+}[/code]
 
 and then call the function by:
 
