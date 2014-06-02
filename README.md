@@ -3,7 +3,7 @@ PushoverArduino
 
 Send pushover.net messages from the arduino to your android or iOS device.
 
-if you want to use for example a vaiable in the message, like a temperature reading from a temperature sensor.
+If you want to use for example a vaiable in the message, like a temperature reading from a temperature sensor.
 
 Here is an example:
 
