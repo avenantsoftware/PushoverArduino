@@ -41,7 +41,7 @@ byte pushover(char *pushovermessage, int priority)
 {
   String message = pushovermessage;
 
-  length = 93 + message.length();
+  length = 114 + message.length();
 
   if(client.connect(pushoversite,80))
   {
@@ -59,6 +59,8 @@ byte pushover(char *pushovermessage, int priority)
     client.print(message);
     client.print("&priority=");
     client.print(priority);
+    client.print("&retry=60");
+    client.print("&expire=3600");
     while(client.connected())  
     {
       while(client.available())
