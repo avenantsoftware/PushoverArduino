@@ -41,7 +41,7 @@ byte pushover(char *pushovermessage, int priority)
 {
   String message = pushovermessage;
 
-  length = 114 + message.length();
+  length = 113 + message.length();
 
   if(client.connect(pushoversite,80))
   {
